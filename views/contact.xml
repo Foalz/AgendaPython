@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contacto>
+  <field name="name" text="Nombre" type="text" />
+  <field name="phone_number" text="Numero de Telefono" type="text" />
+  <field name="email" text="Correo Electronico" type="text" />
+</contacto>
