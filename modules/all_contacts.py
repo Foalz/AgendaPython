@@ -12,6 +12,9 @@ class All(tk.Frame):
         self.controller = controller
         title = tk.Label(self, text="Lista de Contactos", font=("Arial", 25))
         title.grid(row = 1, column = 1)
+        go_back_btn = tk.Button(self, text="Volver al Menu", 
+        command= lambda: self.controller.go_back())
+        go_back_btn.grid(row=1, column=0)
 
         self.bind("<<ShowFrame>>", self.onShowFrame)
 
@@ -34,7 +37,6 @@ class All(tk.Frame):
         self.tree.bind("<Double-1>", self.OnDoubleClick)
         
         self.contacts = [i for i in DB.get_all()]
-        
         for contact in self.contacts:
             self.tree.insert('', tk.END, values=contact)
         

@@ -1,6 +1,7 @@
 import sqlite3
 import logging
 import tkinter as tk
+import tkinter.messagebox
 from tkinter import ttk
 import xml.dom.minidom
 from .dbqueries import DB
@@ -12,6 +13,9 @@ class Add(tk.Frame):
         self.controller = controller
         title = tk.Label(self, text="Agregar contacto", font=("Arial", 25))
         title.grid(row = 1, column = 1)
+        go_back_btn = tk.Button(self, text="Volver al Menu", 
+        command= lambda: self.controller.go_back())
+        go_back_btn.grid(row=1, column=0)
         self.bind("<<ShowFrame>>", self.onShowFrame)
 
     def onShowFrame(self, event):
@@ -35,7 +39,15 @@ class Add(tk.Frame):
         data = []
         for i in self.form:
            data.append(self.form[i].get())
-        DB.add(data)
+        try:
+            if (data[0] == ""): raise Exception("El nombre del contacto no puede estar vacio.")
+            elif (data[1] == "" and data[2] == ""): raise Exception("Debe colocar al menos el numero de telefono o email del contacto.")
+            elif ("@" not in data[2]): raise Exception("Debe ingresar un correo electronico valido")
+            DB.add(data)
+            tk.messagebox.showinfo("Operacion exitosa", "El contacto ha sido agregado exitosamente.")
+            self.controller.go_back()
+        except Exception as e:
+            tk.messagebox.showerror("Error", e)
 
     def parse_xml(self):
         XMLTREE = xml.dom.minidom.parse("./views/contact.xml")
