@@ -33,6 +33,11 @@ class Database():
         cursor = self.con.execute(f"SELECT * FROM {self.table} WHERE rowid={rowid};")
         self.con.commit()
         return cursor
+
+    def find(self, name):
+        cursor = self.con.execute(f"SELECT * FROM {self.table} WHERE nombre='{name}';")
+        self.con.commit()
+        return cursor
     
     def add(self, data):
         print(f"""

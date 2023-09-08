@@ -10,3 +10,10 @@ class Edit(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
 
+        self.controller = controller
+        self.parent = parent
+        self.bind("<<ShowFrame>>", self.onShowFrame)
+    
+    def onShowFrame(self, event):
+        print(self.controller.frames)
+

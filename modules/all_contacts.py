@@ -10,29 +10,44 @@ class All(tk.Frame):
         tk.Frame.__init__(self, parent)
 
         self.controller = controller
-        label = ttk.Label(self, text ="Todos los contactos",)
-        label.grid(row = 0, column = 4, padx = 10, pady = 10)
 
         self.bind("<<ShowFrame>>", self.onShowFrame)
 
     def onShowFrame(self, contact_list=[]):
         self.columns = self.parse_xml()
         columns = tuple([i[0] for i in self.columns])
+        self.label = ttk.Label(self, text ="Buscar por:",).grid(row = 0, column = 1, padx = 10, pady = 10)
+        self.search = ttk.Entry(self)
+        self.search.grid(row = 1, column = 1, padx = 10, pady = 10)
+        self.search_btn = ttk.Button(self, text="Buscar",
+        command= lambda: self.find_contact(self.search.get())).grid(row = 1, column = 2, padx = 10, pady = 10)
+        self.clear_filter_btn = ttk.Button(self, text="Limpiar filtro", 
+        command= lambda: self.clear_filter()).grid(row = 1, column = 3, padx = 10, pady = 10)
         self.tree = ttk.Treeview(self, columns=columns, show='headings')
+
 
         for name, text in self.columns:
             self.tree.heading(name, text=text)
-        self.tree.grid(row=0, column=0, sticky='nsew')
+        self.tree.grid(row=2, column=1, sticky='nsew')
         self.tree.bind("<Double-1>", self.OnDoubleClick)
         
-        contacts = [i for i in DB.get_all()]
+        self.contacts = [i for i in DB.get_all()]
         
-        for contact in contacts:
+        for contact in self.contacts:
             self.tree.insert('', tk.END, values=contact)
+        
 
     def OnDoubleClick(self, event):
         item = self.tree.selection()
-        self.controller.show_frame(Edit)
+        self.user_data = item
+        self.controller.show_frame(Edit)      
+
+    def find_contact(self, data):
+        for item in self.tree.get_children():
+            self.tree.delete(item)
+        self.contacts = [i for i in DB.find(data)]
+        for contact in self.contacts:
+            self.tree.insert('', tk.END, values=contact)
 
     def parse_xml(self):
         XMLTREE = xml.dom.minidom.parse("./views/contact.xml")
