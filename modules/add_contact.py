@@ -4,6 +4,8 @@ from tkinter import ttk
 import xml.dom.minidom
 from .dbqueries import Database
 
+DB = Database("contactos")
+
 class Add(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -11,12 +13,23 @@ class Add(tk.Frame):
         label = ttk.Label(self, text ="Agregar contacto",)
         label.grid(row = 0, column = 4, padx = 10, pady = 10)
 
-        form = {}
+        self.form = {}
         form_labels = self.parse_xml()
-        i = 0
+        distance = 0
         for form_label in form_labels:
-            ttk.Label(self, text=form_label[1]).place(x=50, y=50 + i)
-            i+=50
+            ttk.Label(self, text=form_label[1]).place(x=50, y=50 + distance)
+            self.form[form_label[0]] = ttk.Entry(self)
+            self.form[form_label[0]].place(x=200, y=50 + distance)
+            distance+=50
+
+        submit_btn = ttk.Button(self, text="Crear contacto", 
+        command = lambda: self.create_contact())
+        submit_btn.grid(row = 0, column = 4, padx = 10, pady = 10)
+        # cancel_btn =
+
+    def create_contact(self):
+        for i in self.form:
+           print(self.form[i].get()) 
 
     def parse_xml(self):
         XMLTREE = xml.dom.minidom.parse("./views/contact.xml")
