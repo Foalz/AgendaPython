@@ -48,6 +48,16 @@ class All(tk.Frame):
         self.contacts = [i for i in DB.find(data)]
         for contact in self.contacts:
             self.tree.insert('', tk.END, values=contact)
+    
+    def clear_filter(self):
+        for item in self.tree.get_children():
+            self.tree.delete(item)
+        self.search.delete(0, tk.END)
+        self.contacts = [i for i in DB.get_all()]
+        
+        for contact in self.contacts:
+            self.tree.insert('', tk.END, values=contact)
+
 
     def parse_xml(self):
         XMLTREE = xml.dom.minidom.parse("./views/contact.xml")
