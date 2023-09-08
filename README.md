@@ -2,6 +2,12 @@
 
 Aplicacion de agenda de contactos hecha en Python. La cual carga desde un archivo XML los campos que se deben renderizar en pantalla.
 
+El proyecto se ejecuta de la siguiente manera:
+
+```bash
+python3 main.py
+```
+
 El proyecto sigue la siguiente estructura:
 
 ```bash
