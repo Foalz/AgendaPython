@@ -13,6 +13,6 @@ class Menu(tk.Frame):
         command = lambda : controller.show_frame(Add))
         add_contact_btn.grid(row=1, column=1, padx=10, pady=10)
 
-        find_contact_btn = ttk.Button(self, text="Buscar Contacto",
+        all_contacts_btn = ttk.Button(self, text="Ver todos los contactos",
         command = lambda : controller.show_frame(Find))
-        find_contact_btn.grid(row=2, column=1, padx=10, pady=10)
+        all_contacts_btn.grid(row=2, column=0, padx=10, pady=10)
