@@ -1,0 +1,14 @@
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db does not exists, creating file...
+INFO:root:contactos.db successfully created!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering frame all_contacts
+INFO:root:Rendered successfully
+INFO:root:Rendering frame add_contact
+INFO:root:Rendered frame successfully
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
