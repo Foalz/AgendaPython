@@ -1,4 +1,5 @@
 import sqlite3
+import logging
 import tkinter as tk
 from tkinter import ttk
 import xml.dom.minidom
