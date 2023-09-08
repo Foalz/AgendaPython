@@ -11,9 +11,9 @@ class All(tk.Frame):
         label = ttk.Label(self, text ="Todos los contactos",)
         label.grid(row = 0, column = 4, padx = 10, pady = 10)
 
-        self.contact_table()
+        self.bind("<<ShowFrame>>", self.onShowFrame)
 
-    def contact_table(self, contact_list=[]):
+    def onShowFrame(self, contact_list=[]):
         self.columns = self.parse_xml()
         columns = tuple([i[0] for i in self.columns])
         self.tree = ttk.Treeview(self, columns=columns, show='headings')
@@ -23,8 +23,7 @@ class All(tk.Frame):
         self.tree.grid(row=0, column=0, sticky='nsew')
         self.tree.bind("<Double-1>", self.OnDoubleClick)
         
-        dbquery = DB.get_all()
-        contacts = [i for i in dbquery]
+        contacts = [i for i in DB.get_all()]
         
         for contact in contacts:
             self.tree.insert('', tk.END, values=contact)

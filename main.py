@@ -24,24 +24,18 @@ class App(tk.Tk):
 
     def show_frame(self, cont):
         self.frames[cont].tkraise()
+        self.frames[cont].update()
+        self.frames[cont].event_generate("<<ShowFrame>>")
+
 
     def go_back(self):
         self.frames[Menu].tkraise()
+        self.frames[Menu].update()
+        self.frames[Menu].event_generate("<<ShowFrame>>")
 
 
 if __name__ == "__main__":
-    try:
-        DB.check_table_exists()
-    except Exception as e:
-        print(e)
-        db = sqlite3.connect("./databases/contactos.db")
-        res = db.execute("""
-        CREATE TABLE contactos (
-            nombre TEXT NOT NULL, 
-            telefono TEXT NOT NULL, 
-            email TEXT NOT NULL);
-         """)
-        db.commit()
+    DB.check_table_exists()
 
 app = App()
 app.geometry("500x500")
