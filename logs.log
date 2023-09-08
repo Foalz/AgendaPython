@@ -440,3 +440,822 @@ INFO:root:Rendering <class 'modules.main_menu.Menu'>
 INFO:root:Rendering <class 'modules.add_contact.Add'>
 INFO:root:Program closed, ending database connection...
 INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.add_contact.Add'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.add_contact.Add'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Getting data by name on contactos
+INFO:root:Query executed successfully
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.add_contact.Add'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Connecting to sqlite database
+INFO:root:Connected successfully
+INFO:root:Checking if contactos.db exists
+INFO:root:contactos.db already exists!
+INFO:root:Creating Tkinter frame container
+INFO:root:Creating frames
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.add_contact.Add'>
+INFO:root:Rendering <class 'modules.main_menu.Menu'>
+INFO:root:Rendering <class 'modules.all_contacts.All'>
+INFO:root:Getting all data from contactos
+INFO:root:Query executed successfully
+INFO:root:Program closed, ending database connection...
+INFO:root:Connection finished successfully

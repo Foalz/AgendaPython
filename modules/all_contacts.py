@@ -10,25 +10,27 @@ class All(tk.Frame):
         tk.Frame.__init__(self, parent)
 
         self.controller = controller
+        title = tk.Label(self, text="Lista de Contactos", font=("Arial", 25))
+        title.grid(row = 1, column = 1)
 
         self.bind("<<ShowFrame>>", self.onShowFrame)
 
     def onShowFrame(self, contact_list=[]):
         self.columns = self.parse_xml()
         columns = tuple([i[0] for i in self.columns])
-        self.label = ttk.Label(self, text ="Buscar por:",).grid(row = 0, column = 1, padx = 10, pady = 10)
-        self.search = ttk.Entry(self)
-        self.search.grid(row = 1, column = 1, padx = 10, pady = 10)
+        self.label = ttk.Label(self, text ="Buscar por:",).grid(row = 2, column = 0, padx = 10, pady = 10)
+        self.search = tk.Entry(self, width=40)
+        self.search.grid(row = 2, column = 1,)
         self.search_btn = ttk.Button(self, text="Buscar",
-        command= lambda: self.find_contact(self.search.get())).grid(row = 1, column = 2, padx = 10, pady = 10)
+        command= lambda: self.find_contact(self.search.get())).grid(row = 2, column = 2, padx = 10, pady = 10)
         self.clear_filter_btn = ttk.Button(self, text="Limpiar filtro", 
-        command= lambda: self.clear_filter()).grid(row = 1, column = 3, padx = 10, pady = 10)
+        command= lambda: self.clear_filter()).grid(row = 2, column = 3, padx = 10, pady = 10)
         self.tree = ttk.Treeview(self, columns=columns, show='headings')
 
 
         for name, text in self.columns:
             self.tree.heading(name, text=text)
-        self.tree.grid(row=2, column=1, sticky='nsew')
+        self.tree.grid(row=3, column=1, sticky='nsew')
         self.tree.bind("<Double-1>", self.OnDoubleClick)
         
         self.contacts = [i for i in DB.get_all()]

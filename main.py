@@ -46,7 +46,7 @@ if __name__ == "__main__":
 
 app = App()
 app.title("Agenda de contactos")
-app.minsize(1000,500)
-app.maxsize(1000,500)
+app.geometry("1000x500")
+app.resizable(False, False)
 app.mainloop()
 DB.close()

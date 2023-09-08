@@ -10,14 +10,14 @@ class Add(tk.Frame):
         tk.Frame.__init__(self, parent)
 
         self.controller = controller
-        label = ttk.Label(self, text ="Agregar contacto",)
-        label.grid(row = 0, column = 4, padx = 10, pady = 10)
+        title = tk.Label(self, text="Agregar contacto", font=("Arial", 25))
+        title.grid(row = 1, column = 1)
         self.bind("<<ShowFrame>>", self.onShowFrame)
 
     def onShowFrame(self, event):
         self.form = {}
         form_labels = self.parse_xml()
-        row = 0
+        row = 2
         for form_label in form_labels:
             ttk.Label(self, text=form_label[1]).grid(row = row, column = 1, padx = 10, pady = 10)
             self.form[form_label[0]] = ttk.Entry(self)
