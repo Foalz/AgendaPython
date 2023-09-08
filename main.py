@@ -10,7 +10,7 @@ class App(tk.Tk):
          
         # creating a container
         container = tk.Frame(self) 
-        container.pack(side="top", fill="both", expand=True)
+        container.pack()
 
         self.frames = {} 
         for F in (Menu, Find):
@@ -31,7 +31,6 @@ if __name__ == "__main__":
         print([i for i in cursor])
         # db.execute("""
         # CREATE TABLE contactos (
-            # rowid INT PRIMARY KEY, 
             # nombre TEXT NOT NULL, 
             # telefono TEXT NOT NULL, 
             # email TEXT NOT NULL);
@@ -43,7 +42,6 @@ if __name__ == "__main__":
         db = sqlite3.connect("./databases/contactos.db")
         res = db.execute("""
         CREATE TABLE contactos (
-            rowid INT PRIMARY KEY, 
             nombre TEXT NOT NULL, 
             telefono TEXT NOT NULL, 
             email TEXT NOT NULL);
@@ -53,4 +51,5 @@ if __name__ == "__main__":
         db.close()
 
 app = App()
+app.geometry("500x500")
 app.mainloop()
