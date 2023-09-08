@@ -10,7 +10,7 @@ class Database():
         return cursor
     
     def get_by_id(self, rowid):
-        cursor = self.con.execute(f"SELECT FROM {self.table} WHERE rowid={rowid};")
+        cursor = self.con.execute(f"SELECT * FROM {self.table} WHERE rowid={rowid};")
         return cursor
 
     def update(self, rowid):

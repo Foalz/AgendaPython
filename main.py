@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 from modules.main_menu import Menu 
 from modules.find_contact import Find
+from modules.add_contact import Add
 
 class App(tk.Tk):
     def __init__(self, *args, **kwargs):
@@ -13,7 +14,7 @@ class App(tk.Tk):
         container.pack()
 
         self.frames = {} 
-        for F in (Menu, Find):
+        for F in (Menu, Find, Add):
             frame = F(container, self)
             self.frames[F] = frame
             frame.grid(row = 0, column = 0, sticky ="nsew")        

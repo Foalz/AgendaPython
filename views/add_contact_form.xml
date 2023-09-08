@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<data>
-  <contacts role="form">
-    <field name="name" string="Nombre" />
-    <field name="phone" string="Numero de Telefono" />
-    <field name="email" string="Correo Electronico" />
-  </contact>
-</data>
