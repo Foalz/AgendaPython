@@ -24,12 +24,17 @@ class Add(tk.Frame):
 
         submit_btn = ttk.Button(self, text="Crear contacto", 
         command = lambda: self.create_contact())
-        submit_btn.grid(row = 0, column = 4, padx = 10, pady = 10)
-        # cancel_btn =
+        submit_btn.grid(row = 10, column = 4, padx = 10, pady = 10)
+        cancel_btn = ttk.Button(self, text="Cancelar", 
+        command = lambda: controller.go_back())
+        cancel_btn.grid(row = 11, column = 4, padx = 10, pady = 10)
 
     def create_contact(self):
+        data = []
         for i in self.form:
-           print(self.form[i].get()) 
+           data.append(self.form[i].get())
+        
+        print(DB.add(data))
 
     def parse_xml(self):
         XMLTREE = xml.dom.minidom.parse("./views/contact.xml")

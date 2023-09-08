@@ -25,6 +25,7 @@ class Find(tk.Frame):
         self.tree.grid(row=0, column=0, sticky='nsew')
         
         contacts = [i for i in DB.get_all()]
+        print(contacts)
         for contact in contacts:
             self.tree.insert('', tk.END, values=contact)
 

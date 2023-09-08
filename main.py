@@ -24,12 +24,14 @@ class App(tk.Tk):
     def show_frame(self, cont):
         self.frames[cont].tkraise()
 
+    def go_back(self):
+        self.frames[Menu].tkraise()
+
 
 if __name__ == "__main__":
     try:
         db = sqlite3.connect("./databases/contactos.db")
         cursor = db.execute("SELECT * FROM contactos;")
-        print([i for i in cursor])
         # db.execute("""
         # CREATE TABLE contactos (
             # nombre TEXT NOT NULL, 
@@ -47,7 +49,6 @@ if __name__ == "__main__":
             telefono TEXT NOT NULL, 
             email TEXT NOT NULL);
          """)
-        print(res.fetchone())
         db.commit()
         db.close()
 
