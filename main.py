@@ -2,6 +2,7 @@ import sqlite3
 import tkinter as tk
 from tkinter import ttk
 from modules.main_menu import Menu 
+from modules.find_contact import Find
 
 class App(tk.Tk):
     def __init__(self, *args, **kwargs):
@@ -11,14 +12,16 @@ class App(tk.Tk):
         container = tk.Frame(self) 
         container.pack(side="top", fill="both", expand=True)
 
-        self.frameList = []
-        self.frameList.append(Menu(container))
+        self.frames = {} 
+        for F in (Menu, Find):
+            frame = F(container, self)
+            self.frames[F] = frame
+            frame.grid(row = 0, column = 0, sticky ="nsew")        
+
         self.show_menu()
 
-
-
     def show_menu(self, cont=None):
-        self.frameList[0].tkraise()
+        self.frames[Menu].tkraise()
 
 
 if __name__ == "__main__":
