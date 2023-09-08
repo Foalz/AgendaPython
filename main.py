@@ -26,21 +26,31 @@ class App(tk.Tk):
 
 if __name__ == "__main__":
     try:
-        connection = sqlite3.connect("./databases/contactos.db")
-        db = connection.cursor()
-        res = db.execute("SELECT * FROM contactos;")
-        print(res.fetchone())
+        db = sqlite3.connect("./databases/contactos.db")
+        cursor = db.execute("SELECT * FROM contactos;")
+        print([i for i in cursor])
+        # db.execute("""
+        # CREATE TABLE contactos (
+            # rowid INT PRIMARY KEY, 
+            # nombre TEXT NOT NULL, 
+            # telefono TEXT NOT NULL, 
+            # email TEXT NOT NULL);
+         # """)
+        # db.commit()
+        db.close()
     except Exception as e:
         print(e)
-        connection = sqlite3.connect("./databases/contactos.db")
-        db = connection.cursor()
+        db = sqlite3.connect("./databases/contactos.db")
         res = db.execute("""
         CREATE TABLE contactos (
-            rowid int primary key, 
-            nombre text not null, 
-            telefono text, 
-            email text);
+            rowid INT PRIMARY KEY, 
+            nombre TEXT NOT NULL, 
+            telefono TEXT NOT NULL, 
+            email TEXT NOT NULL);
          """)
+        print(res.fetchone())
+        db.commit()
+        db.close()
 
 app = App()
 app.mainloop()
