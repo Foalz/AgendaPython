@@ -3,8 +3,6 @@ import tkinter as tk
 from tkinter import ttk
 from .all_contacts import All
 from .add_contact import Add
-from .edit_contact import Edit
-import os.path
 
 class Menu(tk.Frame):
     def __init__(self, parent, controller):

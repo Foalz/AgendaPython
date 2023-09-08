@@ -57,7 +57,7 @@ class Database():
     def find(self, name):
         try:
             logging.info(f'Getting data by name on {self.table}')
-            cursor = self.con.execute(f"SELECT * FROM {self.table} WHERE nombre='{name}';")
+            cursor = self.con.execute(f"SELECT * FROM {self.table} WHERE nombre LIKE '%{name}%';")
             self.con.commit()
             logging.info(f'Query executed successfully')
             return cursor
