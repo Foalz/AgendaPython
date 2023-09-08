@@ -2,8 +2,9 @@ import sqlite3
 import tkinter as tk
 from tkinter import ttk
 from modules.main_menu import Menu 
-from modules.find_contact import Find
+from modules.all_contacts import All 
 from modules.add_contact import Add
+from modules.dbqueries import DB
 
 class App(tk.Tk):
     def __init__(self, *args, **kwargs):
@@ -14,7 +15,7 @@ class App(tk.Tk):
         container.pack()
 
         self.frames = {} 
-        for F in (Menu, Find, Add):
+        for F in (Menu, All, Add):
             frame = F(container, self)
             self.frames[F] = frame
             frame.grid(row = 0, column = 0, sticky ="nsew")        
@@ -30,16 +31,7 @@ class App(tk.Tk):
 
 if __name__ == "__main__":
     try:
-        db = sqlite3.connect("./databases/contactos.db")
-        cursor = db.execute("SELECT * FROM contactos;")
-        # db.execute("""
-        # CREATE TABLE contactos (
-            # nombre TEXT NOT NULL, 
-            # telefono TEXT NOT NULL, 
-            # email TEXT NOT NULL);
-         # """)
-        # db.commit()
-        db.close()
+        DB.check_table_exists()
     except Exception as e:
         print(e)
         db = sqlite3.connect("./databases/contactos.db")
@@ -50,8 +42,8 @@ if __name__ == "__main__":
             email TEXT NOT NULL);
          """)
         db.commit()
-        db.close()
 
 app = App()
 app.geometry("500x500")
 app.mainloop()
+DB.close()

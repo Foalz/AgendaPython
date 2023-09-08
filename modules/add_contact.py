@@ -2,9 +2,7 @@ import sqlite3
 import tkinter as tk
 from tkinter import ttk
 import xml.dom.minidom
-from .dbqueries import Database
-
-DB = Database("contactos")
+from .dbqueries import DB
 
 class Add(tk.Frame):
     def __init__(self, parent, controller):
@@ -33,8 +31,7 @@ class Add(tk.Frame):
         data = []
         for i in self.form:
            data.append(self.form[i].get())
-        
-        print(DB.add(data))
+        DB.add(data)
 
     def parse_xml(self):
         XMLTREE = xml.dom.minidom.parse("./views/contact.xml")
