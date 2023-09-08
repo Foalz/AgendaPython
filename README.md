@@ -113,4 +113,4 @@ El programa es capaz de listar todos los contactos que ya han sido registrados e
 SELECT * FROM contactos WHERE nombre LIKE '%nombre%';
 ```
 ![Ejemplo de la vista para consultar los contactos](./assets/contactlist.png)
-![Ejemplo de la vista para consultar los contactos (filtrado por nombre)](./assets/contactfind.png)
+![Ejemplo de la vista para consultar los contactos filtrado por nombre](./assets/contactfind.png)
