@@ -18,10 +18,10 @@ class App(tk.Tk):
             self.frames[F] = frame
             frame.grid(row = 0, column = 0, sticky ="nsew")        
 
-        self.show_menu()
+        self.show_frame(Menu)
 
-    def show_menu(self, cont=None):
-        self.frames[Menu].tkraise()
+    def show_frame(self, cont):
+        self.frames[cont].tkraise()
 
 
 if __name__ == "__main__":
