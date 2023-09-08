@@ -1,8 +1,9 @@
 import sqlite3
 import tkinter as tk
 from tkinter import ttk
+from .all_contacts import All
 from .add_contact import Add
-from .all_contacts import All 
+from .edit_contact import Edit
 import os.path
 
 class Menu(tk.Frame):

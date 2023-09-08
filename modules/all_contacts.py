@@ -3,11 +3,13 @@ import tkinter as tk
 from tkinter import ttk
 import xml.dom.minidom
 from .dbqueries import DB
+from .edit_contact import Edit
 
 class All(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
 
+        self.controller = controller
         label = ttk.Label(self, text ="Todos los contactos",)
         label.grid(row = 0, column = 4, padx = 10, pady = 10)
 
@@ -30,7 +32,7 @@ class All(tk.Frame):
 
     def OnDoubleClick(self, event):
         item = self.tree.selection()
-        print("you clicked on", self.tree.item(item,"values"))
+        self.controller.show_frame(Edit)
 
     def parse_xml(self):
         XMLTREE = xml.dom.minidom.parse("./views/contact.xml")
